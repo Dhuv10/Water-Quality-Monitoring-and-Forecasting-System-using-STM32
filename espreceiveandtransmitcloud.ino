@@ -6,15 +6,15 @@
 //const char* ssid = "Vodafone-14E2";
 //const char* password = "Summer@23";
 
-const char* ssid = "POCO X2";
-const char* password = "8655823576";
+const char* ssid = "yourwifi";
+const char* password = "yourpass";
 
 
 #define IO_HOST  "io.adafruit.com"
-#define IO_PORT  1883              
+#define IO_PORT  yourport              
 
 #define IO_USERNAME  "Dhruv010"
-#define IO_KEY       "aio_RTBT63pwj6ZrMTzIRYLdbAYiJ9O3"
+#define IO_KEY       "yourkey"
 
 WiFiClient wifiClient;
 Adafruit_MQTT_Client mqttClient(&wifiClient, IO_HOST, IO_PORT, IO_USERNAME, IO_KEY);
